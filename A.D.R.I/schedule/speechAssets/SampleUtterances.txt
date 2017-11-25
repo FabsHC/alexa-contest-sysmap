@@ -1,20 +1,4 @@
-TopSellers get top sellers for {Category}
-TopSellers get best sellers for {Category}
-TopSellers get me {Category}
-TopSellers top {Category}
-TopSellers top products in {Category}
-TopSellers top sellers in {Category}
-TopSellers {Category}
-
-HearMore yes
-HearMore yep
-HearMore yeah
-HearMore sure
-HearMore yes please
-HearMore affirmative
-
-DontHearMore no
-DontHearMore nope
-DontHearMore no thank you
-DontHearMore not now
-DontHearMore negative
+AddNewMeeting Add a new meeting
+AddNewMeeting add meeting
+AddNewMeeting Create a new meeting
+AddNewMeeting Create a new meeting {setDate} at {setTime}

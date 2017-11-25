@@ -1,28 +1,56 @@
 {
   "intents": [
     {
-      "intent": "TopSellers",
       "slots": [
         {
-          "name": "Category",
-          "type": "LIST_OF_CATEGORIES"
+          "name": "setDate",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "setTime",
+          "type": "AMAZON.TIME"
         }
-      ]
+      ],
+      "intent": "AddNewMeeting"
     },
     {
-      "intent": "HearMore"
-    },
-    {
-      "intent": "DontHearMore"
+      "intent": "AMAZON.CancelIntent"
     },
     {
       "intent": "AMAZON.HelpIntent"
     },
     {
-      "intent": "AMAZON.StopIntent"
+      "intent": "AMAZON.MoreIntent"
     },
     {
-      "intent": "AMAZON.CancelIntent"
+      "intent": "AMAZON.NavigateSettingsIntent"
+    },
+    {
+      "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.PageDownIntent"
+    },
+    {
+      "intent": "AMAZON.PageUpIntent"
+    },
+    {
+      "intent": "AMAZON.PreviousIntent"
+    },
+    {
+      "intent": "AMAZON.ScrollDownIntent"
+    },
+    {
+      "intent": "AMAZON.ScrollLeftIntent"
+    },
+    {
+      "intent": "AMAZON.ScrollRightIntent"
+    },
+    {
+      "intent": "AMAZON.ScrollUpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
     }
   ]
 }
