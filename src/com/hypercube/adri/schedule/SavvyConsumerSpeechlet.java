@@ -37,6 +37,7 @@ import com.amazon.speech.speechlet.SessionStartedRequest;
 import com.amazon.speech.speechlet.SpeechletV2;
 import com.amazon.speech.speechlet.SpeechletException;
 import com.amazon.speech.speechlet.SpeechletResponse;
+import com.amazon.SignedRequestsHelper;
 import com.amazon.speech.json.SpeechletRequestEnvelope;
 import com.amazon.speech.ui.OutputSpeech;
 import com.amazon.speech.ui.PlainTextOutputSpeech;
@@ -395,7 +396,7 @@ public class SavvyConsumerSpeechlet implements SpeechletV2 {
     private String getRequestUrl(String category) throws InvalidKeyException,
             IllegalArgumentException, UnsupportedEncodingException, NoSuchAlgorithmException {
         // Set up the signed requests helper
-        SignedRequestsHelper helper =
+        SignedRequestsHelper helper = null;
                 SignedRequestsHelper.getInstance("ecs.amazonaws.com", AWS_ACCESS_KEY_ID,
                         AWS_SECRET_KEY);
 
